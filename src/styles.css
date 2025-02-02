@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem auto;
+  gap: 2rem;
+}
+
+.location {
+  text-align: center;
+  align-items: center;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
