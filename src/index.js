@@ -11,4 +11,4 @@ locationBtn.addEventListener("click", () => {
   locationInput.value = "";
 });
 
-displayWeather("Orlando, FL");
+displayWeather("Frederick, MD");

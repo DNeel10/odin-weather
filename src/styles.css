@@ -20,6 +20,10 @@
   );
 }
 
+.section h2 {
+  text-align: center;
+}
+
 .row {
   display: flex;
   justify-content: center;
@@ -27,13 +31,11 @@
 }
 
 .results {
-  display: flex;
+  display: grid;
   padding: 2em;
   border-radius: 10px;
   justify-content: space-around;
-  margin: 1rem auto;
   gap: 2rem;
-  background-color: #ffffff;
 }
 
 .location {
@@ -60,19 +62,43 @@
 }
 
 .condition {
-  font-size: 0.75em;
   text-align: center;
+  display: grid;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: auto;
+}
+
+.condition img {
+  margin: 0 auto;
 }
 
 .forecast-container {
   display: grid;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.forecast-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .forecast {
-  margin: 2em auto;
-  width: 100%;
+  margin: 1em auto;
   display: flex;
-  gap: 2em;
+  gap: 1em;
+}
+
+.forecast-card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.forecast-card * {
+  text-align: center;
 }
 
 .btn {
